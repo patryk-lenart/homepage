@@ -1,25 +1,70 @@
 main{
-    Background:#a1a8ad
+  Background:#a1a8ad
 }
 h2{
-    color:#1460AA
+  color:#1460AA
 
 }
 h3{
-    color:black;
-    background:#7C898B
+  color:black;
+  background:#7C898B
 }
 .main-heading{
-    color:#2873ac;
-   
+  color:#2873ac;
+  padding:20px;
+
 }
-.main-link{
-color:black
+.links__bar{
+color:black;
+  Background:#a1a8ad;
+  padding:12px;
+  
+}
+.links__bar--link{
+  border:1px black solid;
+  border-radius:5px;
+  padding:4px;
+  margin:5px;
+}
+.links__bar--link--pablo{
+  position:absolute;
+  right:20px;
+  top:10px;
 }
 .heading{
-    color:black;
-    background:#7C898B
+  color:black;
+  background:#7C898B;
+  width:1400px;
+  margin:auto;
+  border-radius:7px;
+}
+.heading__about-me{
+width:1000px;
+margin:auto;
+padding:30px;
+font-size:large;
+}
+.heading__how-to-start{
+  width:1000px;
+margin:auto;
+padding:30px;
+font-size:large;
+}
+.heading__is-it-easy{
+  width:1000px;
+margin:auto;
+padding:30px;
+font-size:large;
+}
+main{
+  width:1450px;
+  margin:auto;
+  text-align:center;
 }
 html{
-    Background:#93A3B1
+  Background:#93A3B1
+}
+.image{
+  padding:20px;
+  width:1000px;
 }
