@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Strona Patryka</title>
-
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
   </head>
 
   <body>
@@ -16,7 +16,9 @@
         <a class="links__bar--link" href="zaria.html">O firmie</a>
         <a class="links__bar--link" href="uwu.html">Duperele</a>
         <a class="links__bar--link" href="index.html">Strona główna</a>
-        <a class="links__bar--link links__bar--link--pablo" href="pablo.html">Pablo</a>
+        <a class="links__bar--link links__bar--link--pablo" href="pablo.html"
+          >Pablo</a
+        >
       </nav>
     </header>
     <main>
@@ -25,7 +27,7 @@
       </header>
 
       <section>
-        <h2 class="heading">Kim jestem?</h2>
+        <h2 class="heading heading--js"  id="me">Kim jestem?</h2>
 
         <p class="heading__about-me">
           Nazywam się Patryk Lenart ale możecie na mnie mówić
@@ -36,9 +38,9 @@
         </p>
       </section>
 
-      <section>
+      <section class="main-content">
         <h2 class="heading">Jak zbudować zajebisty dom?</h2>
-        <img src="zaria1.png" alt="dom" class="image"/>
+        <img src="zaria1.png" alt="dom" class="image" />
         <article>
           <h2 class="heading">Od czego zacząć?</h2>
           <p class="heading__how-to-start">
@@ -63,14 +65,16 @@
           </p>
         </article>
       </section>
+      <h1 class="kuba">jebac policje</h1>
 
       <footer>
         <h3>
           Strona ta jest efektem moich działań w ramach szkolenia WTF: co ten
           frontend? 2
         </h3>
+        <div class="jp">hej</div>
       </footer>
-      <h3><a href="#top">Wróć na górę</a></h3>
+      <h3><a class="back" href="#top">Wróć na górę</a></h3>
     </main>
   </body>
 </html>
