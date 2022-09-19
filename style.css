@@ -1,5 +1,5 @@
 main{
-  Background:#a1a8ad
+  Background:rgba(255,255,255,0.1)
 }
 h2{
   color:#1460AA
@@ -62,7 +62,8 @@ main{
   text-align:center;
 }
 html{
-  Background:#93A3B1
+  background: rgb(23,199,191);
+  background: radial-gradient(circle, rgba(23,199,191,1) 26%, rgba(9,9,121,1) 81%, rgba(0,212,255,1) 100%);
 }
 .image{
   padding:20px;
@@ -70,4 +71,9 @@ html{
 }
 .back{
   color:brown;
+}
+.links{
+  display:flex;
+  justify-content:center;
+
 }
