@@ -15,12 +15,16 @@ function greet(name, age){
 greet(`Patryś`, 20);
 
 
-const button =document.querySelector('.action--js');
-console.log(button);
 
-const myClick =()=> {
-  const mainHeading = document.querySelector(".main-heading")
-  mainHeading.innerHTML='lubie piwo';
+
+const button = document.querySelector('.button');
+const myClick = ()=>{
+
 }
-button.addEventListener('click', myClick );
 
+const hamburger = document.querySelector('.hamburger--js');
+hamburger.addEventListener('click' ,()=> {
+  const nav = document.querySelector('.links__bar--js');
+  nav.classList.toggle('links__bar--open')
+
+})

@@ -14,64 +14,83 @@ h3{
   padding:20px;
 
 }
+.links{
+  background: white;
+  height:60px;
+  position:fixed;
+  top:0;
+  width:100%
+
+}
 .links__bar{
 color:black;
-  
+  display:none;
   padding:12px;
   
 }
+
+  .links__bar--open{
+    color:black;
+    display:block;
+   
+    background:white;
+  }
 .links__bar--link{
   border:1px black solid;
   border-radius:5px;
   padding:4px;
   margin:5px;
-  color:white;
+  color:black;
+  display:block;
+}
+.hamburger{
+  position:absolute;
+  right:20px;
+  top:20px;
 }
 
 
 .heading{
   color:white;
   background:#7C898B;
-  width:1400px;
+  max-width:100%;
   margin:auto;
   border-radius:7px;
 }
 .heading__about-me{
-width:1000px;
+max-width:100%;
 margin:auto;
 padding:30px;
 font-size:large;
 }
 .heading__how-to-start{
-  width:1000px;
+  max-width:100%;
 margin:auto;
 padding:30px;
 font-size:large;
 }
 .heading__is-it-easy{
-  width:1000px;
+ max-width:100%;
 margin:auto;
 padding:30px;
 font-size:large;
 }
 main{
-  width:1450px;
+  max-width:100%;
   margin:auto;
   text-align:center;
+  margin-top:60px;
 }
 html{
   background: rgb(23,199,191);
   background: radial-gradient(circle, rgba(23,199,191,1) 26%, rgba(9,9,121,1) 81%, rgba(0,212,255,1) 100%);
 }
 .image{
-  padding:20px;
-  width:1000px;
+
+  max-width:100%;
+  
 }
 .back{
   color:brown;
 }
-.links{
-  display:flex;
-  justify-content:center;
 
-}
