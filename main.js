@@ -13,3 +13,14 @@ function greet(name, age){
   console.log(`Hej nazywam się ${name} i mam ${age} lat. Jestem uczniem frontendu i operatorem maszyn CNC.`)
 }
 greet(`Patryś`, 20);
+
+
+const button =document.querySelector('.action--js');
+console.log(button);
+
+const myClick =()=> {
+  const mainHeading = document.querySelector(".main-heading")
+  mainHeading.innerHTML='lubie piwo';
+}
+button.addEventListener('click', myClick );
+

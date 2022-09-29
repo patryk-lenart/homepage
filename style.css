@@ -10,13 +10,13 @@ h3{
   background:#7C898B
 }
 .main-heading{
-  color:#2873ac;
+  color:white;
   padding:20px;
 
 }
 .links__bar{
 color:black;
-  Background:#a1a8ad;
+  
   padding:12px;
   
 }
@@ -25,14 +25,12 @@ color:black;
   border-radius:5px;
   padding:4px;
   margin:5px;
+  color:white;
 }
-.links__bar--link--pablo{
-  position:absolute;
-  right:20px;
-  top:10px;
-}
+
+
 .heading{
-  color:black;
+  color:white;
   background:#7C898B;
   width:1400px;
   margin:auto;
